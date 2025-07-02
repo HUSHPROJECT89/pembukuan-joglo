@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daftar Menu</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- PWA Support -->
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</head>
+<body>
+  <header>Daftar Menu</header>
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="pembayaran.html">Pembayaran</a>
+    <a href="pendapatan.html">Pendapatan</a>
+  </nav>
+  <main>
+    <!-- Form tambah menu + daftar menu akan muncul di sini -->
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
