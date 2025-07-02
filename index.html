@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Joglo Banteran</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- PWA Support -->
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+</head>
+<body class="beranda">
+  <div class="bg-overlay">
+    <img src="bg-beranda.png" class="bg-image" alt="Background">
+    <div class="white-overlay"></div>
+  </div>
+  <div class="centered-content">
+    <h1 class="judul-utama">NEW JOGLO BANTERAN</h1>
+    <div class="tombol-utama">
+      <a href="pembayaran.html">Pembayaran</a>
+      <a href="menu.html">Daftar Menu</a>
+      <a href="pendapatan.html">Pendapatan</a>
+    </div>
+  </div>
+</body>
+</html>
